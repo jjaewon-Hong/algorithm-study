@@ -12,4 +12,4 @@ Winter vacation weekly problem-solving study using Baekjoon Online Judge.
 
 ## 🛠️ Structure
 
-* **week01** : [[1929] 소수 구하기](https://www.acmicpc.net/problem/1929), [[2407] 조합](https://www.acmicpc.net/problem/2407), [[10974] 모든 순열](https://www.acmicpc.net/problem/10974), [[2824] 최대공약수](https://www.acmicpc.net/problem/2824)
+* **week01** : [[1929] 소수 구하기](https://www.acmicpc.net/problem/1929), [[2407] 조합](https://www.acmicpc.net/problem/2407), [[10974] 모든 순열](https://www.acmicpc.net/problem/10974)
