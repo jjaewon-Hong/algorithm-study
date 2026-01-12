@@ -16,6 +16,7 @@ def gcd(a,b) :
     # a = b
     # b = temp
     return a
+    # 18 42 / 42 18 / 18 6 / 6 0 -> a가 최대공약수
 
 sum1 = sum2 = 1
 for item in N_list :
