@@ -15,8 +15,8 @@ def dfs(index, current_sum) :
     if new_sum == S:
         count += 1
     
-    dfs(index + 1, new_sum)
-    dfs(index + 1, current_sum)
+    dfs(index + 1, new_sum) # 좌로 뻗어나간거에서 결과값 0이 있는지 확인이 필요함
+    dfs(index + 1, current_sum) # 우로 뻗어나감 (new_sum은 어차피 초기화 될거니 맨 우측 가지 결과값 0인건 의미X)
 
 dfs(0,0)
 print(count)  
