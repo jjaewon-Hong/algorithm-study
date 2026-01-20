@@ -14,7 +14,7 @@ def dfs(index, current_sum) :
     new_sum = current_sum + nums[index]
     if new_sum == S:
         count += 1
-    
+
     dfs(index + 1, new_sum) # 루트기준 좌측 가지 (현재숫자를 더함)
     dfs(index + 1, current_sum) # 루트기준 우측 가지 (현재숫자 더하지 않음)
     # -3부터 시작해서 5까지 더해지는 형태도 찾을 수 있게 함
