@@ -1,3 +1,7 @@
+# [참고 메모]
+# 파이썬의 깊이 제한 1000
+# 정수 오버플로우를 신경쓰지 않아도 될 만큼 유연하게 처리
+
 import sys
 
 N, M = map(int, sys.stdin.readline().split())
