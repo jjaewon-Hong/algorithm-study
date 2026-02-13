@@ -8,10 +8,18 @@ def solve() :
     distance = list(map(int, sys.stdin.readline().split()))
     price = list(map(int, sys.stdin.readline().split()))
 
-    dist = sum(distance)
+    cost = 0
+    min_price = price[0]
 
     for i in range(num-1) :
-        if dist == 0 :
-            break
+        # 현재 주유소가 지금 값보다 싼 경우
+        if price[i] < min_price :
+            min_price = price[i]
+        
+        # 현재까지의 최저가로 이번 구간 이동
+        cost += min_price * distance[i]
+    print(cost)
+
+solve()
         
             
