@@ -11,13 +11,9 @@ while True :
     if len(result) == n :
         break
 
-    if n < k :
-        result.append(n_list.pop[n//k])
-
-    else :
-        for i in range(k-1) :
-            n_list.append(n_list.pop(0))
-        result.append(n_list.pop(0))
+    for i in range(k-1) :
+        n_list.append(n_list.pop(0))
+    result.append(n_list.pop(0))
 
 print("<", end="")
 for i in result :
