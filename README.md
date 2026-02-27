@@ -1,6 +1,6 @@
 # algorithm-study
 
-Winter vacation weekly problem-solving study using Baekjoon Online Judge. (26.01.04 ~ 26.02.27)
+Winter vacation weekly problem-solving study using Baekjoon Online Judge. (26.01.04 ~ 26.02.26)
 
 ## 🚀 Rules
 
